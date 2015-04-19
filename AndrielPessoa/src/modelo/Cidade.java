@@ -10,10 +10,10 @@ package modelo;
  *
  * @author Andriel
  */
-public class Pessoa {
+public class Cidade {
+    
     private Integer codigo;
-    private String nome;
-    private String sexo; 
+    private String nome; 
 
     public Integer getCodigo() {
         return codigo;
@@ -30,14 +30,7 @@ public class Pessoa {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    public String getSexo() {
-        return sexo;
-    }
-
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
-    }
+    
     
     
 }
