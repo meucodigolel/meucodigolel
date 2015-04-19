@@ -1,19 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package modelo;
 
-/**
- *
- * @author Renan
- */
+import java.util.Date;
+import modelo.Jogador;
+
 public class Ranking {
     
-    private Integer id, pontos;
-    private String login;
+    private Integer id;
+    private Jogador jogador;
+    private Integer pontos;
+    private Date data;
+    
+    public Ranking(){
+        jogador = new Jogador();
+    }
 
     public Integer getId() {
         return id;
@@ -21,6 +20,14 @@ public class Ranking {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Jogador getJogador() {
+        return jogador;
+    }
+
+    public void setJogador(Jogador jogador) {
+        this.jogador = jogador;
     }
 
     public Integer getPontos() {
@@ -31,14 +38,14 @@ public class Ranking {
         this.pontos = pontos;
     }
 
-    public String getLogin() {
-        return login;
+    public Date getData() {
+        return data;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setData(Date data) {
+        this.data = data;
     }
-
+    
     
     
 }

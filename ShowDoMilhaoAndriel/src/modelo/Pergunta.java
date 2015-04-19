@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package modelo;
 
 /**
  *
- * @author Renan
+ * @author Andriel
  */
 public class Pergunta {
     
-    private String a, b, c, d, enunciado;
-    private Integer nivel, id; 
-    private String certa; 
+    private String a,b,c,d,certa,enunciado;
+    Integer nivel,id;
 
     public String getA() {
         return a;
@@ -48,6 +46,14 @@ public class Pergunta {
         this.d = d;
     }
 
+    public String getCerta() {
+        return certa;
+    }
+
+    public void setCerta(String certa) {
+        this.certa = certa;
+    }
+
     public Integer getNivel() {
         return nivel;
     }
@@ -62,14 +68,6 @@ public class Pergunta {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getCerta() {
-        return certa;
-    }
-
-    public void setCerta(String certa) {
-        this.certa = certa;
     }
 
     public String getEnunciado() {

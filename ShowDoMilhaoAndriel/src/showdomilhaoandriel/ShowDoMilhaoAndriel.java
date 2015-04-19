@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package showdomilhaoandriel;
 
 /**
  *
- * @author Renan
+ * @author Andriel
  */
-public class ShowDoMilhaoAndriel {
+public class ShowdomilhaoAndriel {
 
     /**
      * @param args the command line arguments

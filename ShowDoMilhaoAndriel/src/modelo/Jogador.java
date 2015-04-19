@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package modelo;
 
 /**
  *
- * @author Renan
+ * @author Andriel
  */
 public class Jogador {
     
     private String login;
-    private String senha; 
-    private String email; 
+    private String senha;
+    private String email;
 
     public String getLogin() {
         return login;
